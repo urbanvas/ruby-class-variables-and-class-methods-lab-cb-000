@@ -30,7 +30,7 @@ class Song
     @@genres.each_with_object(Hash.new(0)) { |o, h| h[o] += 1 }
   end
   def self.artist_count
-    @@artist.each_with_object(Hash.new(0)) { |o, h| h[o] += 1 }
+    @@artists.each_with_object(Hash.new(0)) { |o, h| h[o] += 1 }
   end
 
 end
