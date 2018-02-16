@@ -27,7 +27,7 @@ class Song
   end
 
   def self.genre_count
-    (0...@@genres.length).each do |i|
+    (@@genres.length).each do |i|
       @@hash[@@genres[i]] = i
     end
   end
